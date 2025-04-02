@@ -2,6 +2,7 @@
 
 <a href="https://bitcoin.org/"> <img alt="Bitcoin" src="https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white" height=30></a>
 <a href="https://modelcontextprotocol.com/"> <img alt="MCP" src="https://img.shields.io/badge/MCP-000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" height=30></a>
+<a href="https://docs.ordinals.com/"> <img alt="Ordinals" src="https://img.shields.io/badge/Ordinals-000?style=for-the-badge&logo=bitcoin&logoColor=white" height=30></a>
 </div>
 
 # MCP-Inscription Server
@@ -29,6 +30,12 @@
 ## Overview
 
 A Model Context Protocol (MCP) server that enables AI models to interact with Ordinals Inscriptions, allowing them to display content from a transaction.
+
+## 🎮 Demo
+
+| Goose Demo [Video](https://github.com/user-attachments/assets/70054d3b-2df8-4f17-867d-878f1b5686ce) |
+| --------------------------------------------------------------------------------------------------- |
+| <div style="display: flex; align-items: center; justify-content: center;"><a href="https://github.com/user-attachments/assets/70054d3b-2df8-4f17-867d-878f1b5686ce"><img src="https://github.com/user-attachments/assets/7b8b5fe1-6c3c-4741-ad16-c70887d954b6" style="width: 60%; height: auto;" alt="Goose screenshot" /></a></div> |
 
 ## 💼 Table of Contents
 
