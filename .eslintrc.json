@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "jest", "jsdoc"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "env": {
+    "node": true,
+    "es2022": true,
+    "jest": true
+  },
+  "rules": {
+    "jsdoc/require-jsdoc": [
+      "warn",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": true,
+          "ArrowFunctionExpression": false,
+          "FunctionExpression": false
+        }
+      }
+    ],
+    "jsdoc/require-param": "warn",
+    "jsdoc/require-param-type": "off", // TypeScript handles types
+    "jsdoc/require-param-description": "warn",
+    "jsdoc/require-returns": "warn",
+    "jsdoc/require-returns-type": "off", // TypeScript handles types
+    "jsdoc/require-returns-description": "warn",
+    "no-console": "warn", // Use logger instead
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/explicit-function-return-type": "off", // TypeScript can infer return types
+    "@typescript-eslint/explicit-module-boundary-types": "off" // TypeScript can infer types for exports
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["build/", "node_modules/", "coverage/"]
+} 
