@@ -33,9 +33,9 @@ A Model Context Protocol (MCP) server that enables AI models to interact with Or
 
 ## 🎮 Demo
 
-| Goose Demo [Video](https://github.com/user-attachments/assets/70054d3b-2df8-4f17-867d-878f1b5686ce) |
+| Goose Demo [Video](https://github.com/user-attachments/assets/55f606d7-03f6-438b-93bc-9ec09a9f7fd6) |
 | --------------------------------------------------------------------------------------------------- |
-| <div style="display: flex; align-items: center; justify-content: center;"><a href="https://github.com/user-attachments/assets/70054d3b-2df8-4f17-867d-878f1b5686ce"><img src="https://github.com/user-attachments/assets/7b8b5fe1-6c3c-4741-ad16-c70887d954b6" style="width: 60%; height: auto;" alt="Goose screenshot" /></a></div> |
+| <div style="display: flex; align-items: center; justify-content: center;"><a href="https://github.com/user-attachments/assets/55f606d7-03f6-438b-93bc-9ec09a9f7fd6"><img src="https://github.com/user-attachments/assets/7b8b5fe1-6c3c-4741-ad16-c70887d954b6" style="width: 60%; height: auto;" alt="Goose screenshot" /></a></div> |
 
 ## 💼 Table of Contents
 
