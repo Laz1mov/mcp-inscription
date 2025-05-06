@@ -7,6 +7,8 @@
 
 # MCP-Inscription Server
 
+[![smithery badge](https://smithery.ai/badge/@Laz1mov/mcp-inscription)](https://smithery.ai/server/@Laz1mov/mcp-inscription)
+
 <div align="center">
   <h3>
     <a href="https://github.com/Laz1mov/mcp-inscription/">
@@ -189,6 +191,13 @@ Once Claude Desktop is restarted, you can test whether the MCP-Inscription serve
   - **Windows:** `%APPDATA%\Claude\logs\`  
     Look for `mcp.log` for general MCP connection messages, and a file named `mcp-server-mcp-inscription.log` (or with whatever name you used) for the MCP server's output/errors. These logs will show if the server started up or if there were any errors (such as a wrong path or exceptions in the server). If you see errors, fix the configuration or environment as needed, then restart Claude Desktop and test again.
 
+### Installing via Smithery
+
+To install Inscription Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Laz1mov/mcp-inscription):
+
+```bash
+npx -y @smithery/cli install @Laz1mov/mcp-inscription --client claude
+```
 
 ## 📂 Project Structure
 
